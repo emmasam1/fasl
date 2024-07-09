@@ -1,5 +1,5 @@
 import { MdMenuBook } from 'react-icons/md';
-import { UserOutlined, MailOutlined, DownloadOutlined } from '@ant-design/icons';
+import { IoIosMailOpen } from "react-icons/io"
 import { Link } from 'react-router-dom';
 import img1 from '../../assets/image/blog-1.jpg'
 import img2 from '../../assets/image/portfolio-1.jpg'
@@ -41,25 +41,26 @@ const Services = () => {
   return (
     <div>
         <div className="w-full h-[200px] bg-[url('assets/image/header_bg-2.jpg')] relative lg:-top-[4.5rem] flex justify-center items-center bg-contain bg-no-repeat bg-fixed">
-            <h1 className='font-bold text-5xl text-white'>Services</h1>
-        </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'></div>
+            <h1 className='font-bold text-4xl lg:text-5xl text-white'>Services</h1>
+      </div>
         <div className='w-full flex justify-center items-center'>
-           <div className='w-[60%] m-auto'>
-              <h1 className='flex justify-center items-center font-light text-3xl text-gray-500'>We are all constructed out of our self dialogue.</h1>
-             <h4 className='flex justify-center items-center text-center font-light text-md text-gray-600'>
-                 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorperadipiscing elit, sed diam nonummy
-                 nibh suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-             </h4>
-           </div>
+        <div className='w-full md:w-[60%] m-auto'>
+            <h1 className='text-2xl md:text-2xl lg:text-3xl font-light text-gray-500 text-center mb-4'>
+              We are all constructed out of our self dialogue.
+            </h1>
+            <h4 className='text-md md:text-lg lg:text-lg font-light text-gray-500 text-center'>
+             Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorperadipiscing elit, sed diam nonummy nibh suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            </h4>
         </div>
+        </div>
+
         <div className="p-5 w-full mt-20">
-      <div className="w-full sm:w-[90%] m-auto grid grid-cols-1 sm:grid-cols-2 gap-4 py-12 border sm:border-gray-200">
-        <div className="flex items-start justify-around hover:bg-gray-200 hover:text-red-500 transition-colors duration-300 p-4 sm:p-0">
+      <div className="w-full sm:w-[95%] m-auto group grid grid-cols-1 sm:grid-cols-2 gap-4 py-12 border sm:border-gray-200">
+        <div className="flex items-start justify-around p-4 sm:p-0">
           <div className="flex items-start justify-around">
             <MdMenuBook className="text-4xl sm:text-5xl mr-4" />
             <div>
-              <h3 className="text-lg sm:text-xl font-normal">BROCHURE</h3>
+              <h3 className="text-lg sm:text-xl font-normal group-hover:text-red-500 transition-colors duration-300 text-gray-600">BROCHURE</h3>
               <p className='py-2 sm:py-4 text-sm sm:text-base'>In these words,  <br /> however, there is no question</p>
             </div>
           </div>
@@ -70,11 +71,11 @@ const Services = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-start justify-around hover:bg-gray-200 hover:text-red-500 transition-colors duration-300 p-4 sm:p-0">
+        <div className="flex items-start justify-around p-4 sm:p-0">
           <div className="flex items-start">
-            <MailOutlined className="text-4xl sm:text-5xl mr-4" />
+            <IoIosMailOpen className="text-4xl sm:text-5xl mr-4" />
             <div>
-              <h3 className="text-lg sm:text-xl font-normal">MEET & ASK</h3>
+              <h3 className="text-lg sm:text-xl font-normal group-hover:text-red-500 transition-colors duration-300 text-gray-600">MEET & ASK</h3>
               <p className='py-2 sm:py-4 text-sm sm:text-base'>In these words,  <br /> however, there is no question</p>
             </div>
           </div>
@@ -88,10 +89,10 @@ const Services = () => {
       </div>
     </div>
         <h1 className='text-center py-5 font-bold text-2xl text-black'>ALL SERVICES</h1>
-     <div className="p-5">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+     <div className="p-5 w-full">
+      <div className="grid grid-cols-1 border w-[95%] py-6 m-auto sm:grid-cols-2 md:grid-cols-4 gap-6">
         {DummyData.map((item) => (
-          <div key={item.id} className="bg-white group rounded-lg shadow-md p-4 flex flex-col justify-between cursor-pointer">
+          <div key={item.id} className="bg-white group rounded-sm shadow-sm p-4 flex flex-col justify-between cursor-pointer">
             <img src={item.imageUrl} alt={item.title} className="w-full h-52 object-cover py-4" />
             <div>
               <h3 className="text-xl font-semibold mb-1 transition duration-300 ease-in-out group-hover:text-red-500">{item.title}</h3>
