@@ -36,6 +36,62 @@ const Services = () => {
           content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
           link: '#',
         },
+        {
+            id: 5,
+            imageUrl: 'https://images.pexels.com/photos/534220/pexels-photo-534220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            title: 'Commercial constructions',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 6,
+            imageUrl: 'https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            title: 'General construction',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 7,
+            imageUrl: 'https://images.pexels.com/photos/7217930/pexels-photo-7217930.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Housing Renovations',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 8,
+            imageUrl: 'https://images.pexels.com/photos/927805/pexels-photo-927805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            title: 'Marketing & Advertising',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 9,
+            imageUrl: 'https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            title: 'Hotel Management',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 10,
+            imageUrl: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600',
+            title: 'Event planning',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 11,
+            imageUrl: 'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            title: 'Auctioning',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
+          {
+            id: 12,
+            imageUrl: 'https://media.istockphoto.com/id/688243916/photo/tree-alley-at-spring.jpg?s=1024x1024&w=is&k=20&c=T3AM5-94vjhToc0ISj3xLErsDl0bd-HFY3BYpVZx30c=',
+            title: 'Aforestation & deforestation',
+            content: 'Fusce non ligula et nisl congue tempus. Donec eget dui vel lorem lacinia ultricies non vel justo.',
+            link: '#',
+          },
       ];
       
   return (
