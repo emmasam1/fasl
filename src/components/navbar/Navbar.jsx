@@ -100,15 +100,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="block py-2 px-3 text-green-700 hover:text-green-900"
-                  onClick={closeMenu}
-                >
-                  About
-                </Link>
-              </li>
+             
               <li>
                 <Link
                   to="/services"
@@ -116,6 +108,16 @@ const Navbar = () => {
                   onClick={closeMenu}
                 >
                   Services
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  to="/about"
+                  className="block py-2 px-3 text-green-700 hover:text-green-900"
+                  onClick={closeMenu}
+                >
+                  About
                 </Link>
               </li>
               <li>
@@ -137,17 +139,18 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about"
-              className="py-2 px-3 text-green-700 hover:text-green-900"
-            >
-              About
-            </Link>
+           
             <Link
               to="/services"
               className="py-2 px-3 text-green-700 hover:text-green-900"
             >
               Services
+            </Link>
+            <Link
+              to="/about"
+              className="py-2 px-3 text-green-700 hover:text-green-900"
+            >
+              About
             </Link>
             <Link
               to="/contact"
