@@ -1,9 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { GoBriefcase } from "react-icons/go";
-import { FaHandshake } from "react-icons/fa";
-import { FaRocket } from "react-icons/fa6";
+import { FaHandshake, FaRocket } from "react-icons/fa";
 import Banner from "../../components/banner/Banner";
 
 const Home = () => {
@@ -15,23 +14,34 @@ const Home = () => {
   const [ref2, inView2] = useInView({ triggerOnce: true });
   const [ref3, inView3] = useInView({ triggerOnce: true });
 
-  React.useEffect(() => {
-    if (inView1) {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    if (inView1 && scrollPosition >= 200) {
       controls1.start("visible");
     }
-  }, [controls1, inView1]);
+  }, [controls1, inView1, scrollPosition]);
 
-  React.useEffect(() => {
-    if (inView2) {
+  useEffect(() => {
+    if (inView2 && scrollPosition >= 200) {
       controls2.start("visible");
     }
-  }, [controls2, inView2]);
+  }, [controls2, inView2, scrollPosition]);
 
-  React.useEffect(() => {
-    if (inView3) {
+  useEffect(() => {
+    if (inView3 && scrollPosition >= 200) {
       controls3.start("visible");
     }
-  }, [controls3, inView3]);
+  }, [controls3, inView3, scrollPosition]);
 
   const fadeInTop = {
     hidden: { opacity: 0, y: -50 },
