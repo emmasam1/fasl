@@ -113,7 +113,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  to="/about"
+                  to="/#"
                   className="block py-2 px-3 text-green-700 hover:text-green-900"
                   onClick={closeMenu}
                 >
@@ -122,7 +122,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/#"
                   className="block py-2 px-3 text-green-700 hover:text-green-900"
                   onClick={closeMenu}
                 >
@@ -147,13 +147,13 @@ const Navbar = () => {
               Services
             </Link>
             <Link
-              to="/about"
+              to="/#"
               className="py-2 px-3 text-green-700 hover:text-green-900"
             >
               About
             </Link>
             <Link
-              to="/contact"
+              to="/#"
               className="py-2 px-3 text-green-700 hover:text-green-900"
             >
               Contact
