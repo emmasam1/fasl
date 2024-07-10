@@ -134,7 +134,7 @@ const Footer = () => {
         <div className="w-4/5 m-auto">
           <p className="text-center text-gray-500">
             {" "}
-            &copy; {currentYear} Frank Africa Synergy Limited By - The Unit{" "}
+            &copy; {currentYear} Frank Africa Synergy Limited By - D-Unit{" "}
           </p>
         </div>
       </div>
