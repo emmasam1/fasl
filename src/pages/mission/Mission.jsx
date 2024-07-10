@@ -60,7 +60,7 @@ const Mission = () => {
         animate={controls1}
         variants={fadeInTop}
         transition={{ duration: 1 }}
-        className="p-4 md:p-8 bg-white drop-shadow flex flex-col items-center text-center"
+        className="p-4 md:p-8 bg-white drop-shadow flex flex-col items-center text-left"
       >
         <FaRocket className="mb-2" size={50} />
         <h1 className="font-semibold text-sm md:text-base lg:text-lg">
@@ -73,7 +73,7 @@ const Mission = () => {
         animate={controls2}
         variants={fadeInBottom}
         transition={{ duration: 1 }}
-        className="p-4 md:p-8 bg-white relative lg:-top-10 drop-shadow flex flex-col items-center text-center"
+        className="p-4 md:p-8 bg-white relative lg:-top-10 drop-shadow flex flex-col items-center text-left"
       >
         <GoBriefcase className="mb-2" size={50} />
         <h1 className="font-semibold text-sm md:text-base lg:text-lg">
@@ -88,7 +88,7 @@ const Mission = () => {
         animate={controls3}
         variants={fadeInTop}
         transition={{ duration: 1 }}
-        className="p-4 md:p-8 bg-white drop-shadow flex flex-col items-center text-center"
+        className="p-4 md:p-8 bg-white drop-shadow flex flex-col items-center text-left"
       >
         <FaHandshake className="mb-2" size={50} />
         <h1 className="font-semibold text-sm md:text-base lg:text-lg">

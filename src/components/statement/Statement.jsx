@@ -106,9 +106,9 @@ const Statement = () => {
                     className="w-full h-auto md:h-72 object-cover"
                   />
                 </div>
-                <div className="h-auto md:h-72 flex flex-col items-center justify-center bg-gray-100 px-4 md:px-10 col-span-2">
-                  <h1 className="text-center font-semibold text-2xl">{item.title}</h1>
-                  <p className="text-center italic">{item.content}</p>
+                <div className="h-auto md:h-72 flex flex-col justify-center bg-gray-100 px-4 md:px-10 col-span-2">
+                  <h1 className="text-left font-semibold text-2xl">{item.title}</h1>
+                  <p className="text-left italic">{item.content}</p>
                 </div>
               </div>
             ))}
