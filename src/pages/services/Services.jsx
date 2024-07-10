@@ -97,7 +97,7 @@ const Services = () => {
       
   return (
     <div>
-        <div className="w-full h-[200px] bg-[url('assets/image/header_bg-2.jpg')] relative lg:-top-[4.5rem] flex justify-center items-center bg-contain bg-no-repeat bg-fixed">
+        <div className="w-full h-[200px] bg-[url('assets/image/header_bg-2.jpg')] relative lg:-top-[4.5rem] sm:top-[20px] flex justify-center items-center bg-no-repeat sm:bg-scroll lg:bg-fixed">
             <h1 className='font-bold text-4xl lg:text-5xl text-white'>Services</h1>
       </div>
         <div className='w-full flex justify-center items-center'>
@@ -154,7 +154,7 @@ const Services = () => {
             <div>
               <h3 className="text-xl font-semibold mb-1 transition duration-300 ease-in-out group-hover:text-red-500">{item.title}</h3>
               <p className="text-sm py-2">{item.content}</p>
-              <Link href={item.link} className='text-red-500 hover:underline text-center'>Read More...</Link>
+              <Link to={item.link} className='text-red-500 hover:underline text-center'>Read More...</Link>
             </div>
           </div>
         ))}
@@ -166,4 +166,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;
