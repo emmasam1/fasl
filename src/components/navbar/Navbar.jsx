@@ -93,7 +93,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-green-700 hover:text-green-900"
+                  className="block py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
                   aria-current="page"
                   onClick={closeMenu}
                 >
@@ -104,7 +104,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/services"
-                  className="block py-2 px-3 text-green-700 hover:text-green-900"
+                  className="block py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
                   onClick={closeMenu}
                 >
                   Services
@@ -114,7 +114,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/#"
-                  className="block py-2 px-3 text-green-700 hover:text-green-900"
+                  className="block py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
                   onClick={closeMenu}
                 >
                   About
@@ -123,7 +123,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/#"
-                  className="block py-2 px-3 text-green-700 hover:text-green-900"
+                  className="block py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
                   onClick={closeMenu}
                 >
                   Contact
@@ -134,7 +134,7 @@ const Navbar = () => {
           <div className="hidden md:flex md:items-center md:space-x-8 rtl:space-x-reverse">
             <Link
               to="/"
-              className="py-2 px-3 text-green-700 hover:text-green-900"
+              className="py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
               aria-current="page"
             >
               Home
@@ -142,19 +142,19 @@ const Navbar = () => {
            
             <Link
               to="/services"
-              className="py-2 px-3 text-green-700 hover:text-green-900"
+              className="py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
             >
               Services
             </Link>
             <Link
               to="/#"
-              className="py-2 px-3 text-green-700 hover:text-green-900"
+              className="py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
             >
               About
             </Link>
             <Link
               to="/#"
-              className="py-2 px-3 text-green-700 hover:text-green-900"
+              className="py-2 px-3 font-mono font-bold text-[#454545] hover:text-green-900"
             >
               Contact
             </Link>
