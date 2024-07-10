@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="m-auto bg-[url('assets/image/footer-bg.jpg')] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <div className="p-5">
               <h2 className="text-gray-400 font-thin mb-4">ABOUT</h2>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-sm font-thin">
                 Mauris accumsan eros eget libero posuere vulputate. Etiam elit
                 elit, elementum sed varius at, vitae est. Sed nec felis
                 pellentesque, lacinia dui sed, ultricies sapien. Pellentesque
@@ -43,48 +43,48 @@ const Footer = () => {
             <div className="p-5">
               <h2 className="text-gray-400 font-thin mb-4">SERVICES</h2>
               <div>
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   GENERAL BUILDER →
                 </Link>
               </div>
               <div className="mt-2">
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   HOUSE EXTENSIONS →
                 </Link>
               </div>
               <div className="mt-2">
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   REFURBISHMENT →
                 </Link>
               </div>
               <div className="mt-2">
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   ELECTRICITY →
                 </Link>
               </div>
               <div className="mt-2">
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   GENERAL BUILDER →
                 </Link>
               </div>
               <div className="mt-2">
-                <Link to="" className="text-sm text-red-500 hover:text-white">
+                <Link to="" className="text-sm text-red-500 hover:text-white font-thin">
                   KITCHENS →
                 </Link>
               </div>
             </div>
             <div className="p-5">
               <h2 className="text-gray-400 font-thin mb-4">ADDRESS</h2>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-sm font-thin">
                 No D22 Abdulwajahuni Plaza by Ado U turn, Karu LGA Nasarawa
                 State Nigeria,
               </p>
-              <p className="text-gray-300 text-sm mt-3">
+              <p className="text-gray-300 text-sm mt-3 font-thin">
                 Tel: 08082100835
                 <br />
                 Tel: 08092100835
               </p>
-              <p className="text-gray-300 text-sm mt-3">
+              <p className="text-gray-300 text-sm mt-3 font-thin">
                 Email: frankafrica9@gmail.com
                 <br />
                 Email: francisesale31@yahoo.co.uk
