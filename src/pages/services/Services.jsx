@@ -5,6 +5,7 @@ import img1 from '../../assets/image/blog-1.jpg'
 import img2 from '../../assets/image/portfolio-1.jpg'
 import img3 from '../../assets/image/blog-5.jpg'
 import img4 from '../../assets/image/service_bg_2.jpg'
+import Scroll from '../../components/top/Scroll';
 
 const Services = () => {
     const DummyData = [
@@ -160,6 +161,7 @@ const Services = () => {
       </div>
     </div>
     {/* end */}
+    <Scroll />
     </div>
   )
 }
