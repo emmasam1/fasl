@@ -58,10 +58,10 @@ const Navbar = () => {
               </div>
               <div>
                 <p className="text-xs text-white font-semibold">
-                  08082100835, 08092100835
+                  07063062524, 08061908010
                 </p>
                 <p className="text-xs text-gray-300 font-semibold">
-                  frankafrica9@gmail.com francisesale31@yahoo.co.uk
+                  findm4@gmail.com oyivosam12@gmail.com
                 </p>
               </div>
             </div>
