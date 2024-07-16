@@ -80,14 +80,14 @@ const Footer = () => {
                 State Nigeria,
               </p>
               <p className="text-gray-300 text-sm mt-3 font-thin">
-                Tel: 08082100835
+                Tel: 07063062524
                 <br />
-                Tel: 08092100835
+                Tel: 08061908010
               </p>
               <p className="text-gray-300 text-sm mt-3 font-thin">
-                Email: frankafrica9@gmail.com
+                Email: findm4@gmail.com
                 <br />
-                Email: francisesale31@yahoo.co.uk
+                Email: oyivosam12@gmail.com
               </p>
             </div>
             <div className="p-5">
